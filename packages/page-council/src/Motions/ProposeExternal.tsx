@@ -1,15 +1,15 @@
 // Copyright 2017-2020 @polkadot/app-council authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { SubmittableExtrinsic } from '@polkadot/api/types';
-
 import React, { useCallback, useEffect, useState } from 'react';
+
+import type { SubmittableExtrinsic } from '@polkadot/api/types';
 import { Button, Input, InputAddress, Modal, TxButton } from '@polkadot/react-components';
 import { useApi, useToggle } from '@polkadot/react-hooks';
 import { isHex } from '@polkadot/util';
 
-import { useTranslation } from '../translate';
 import { getThreshold } from '../thresholds';
+import { useTranslation } from '../translate';
 
 interface Props {
   className?: string;

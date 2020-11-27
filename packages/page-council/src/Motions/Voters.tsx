@@ -1,10 +1,10 @@
 // Copyright 2017-2020 @polkadot/app-democracy authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AccountId, MemberCount } from '@polkadot/types/interfaces';
-
 import React, { useMemo } from 'react';
+
 import { AddressMini, Expander } from '@polkadot/react-components';
+import { AccountId, MemberCount } from '@polkadot/types/interfaces';
 
 import { useTranslation } from '../translate';
 

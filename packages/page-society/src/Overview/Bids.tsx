@@ -1,11 +1,11 @@
 // Copyright 2017-2020 @polkadot/app-society authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Bid } from '@polkadot/types/interfaces';
-
 import React, { useRef } from 'react';
+
 import { Table } from '@polkadot/react-components';
 import { useApi, useCall } from '@polkadot/react-hooks';
+import { Bid } from '@polkadot/types/interfaces';
 
 import { useTranslation } from '../translate';
 import BidRow from './Bid';

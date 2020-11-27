@@ -1,11 +1,11 @@
 // Copyright 2017-2020 @polkadot/app-claims authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { TxCallback } from '@polkadot/react-components/Status/types';
-import type { Option } from '@polkadot/types';
-
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
+
+import type { TxCallback } from '@polkadot/react-components/Status/types';
+import type { Option } from '@polkadot/types';
 import { Button, Card, TxButton } from '@polkadot/react-components';
 import { useAccounts, useApi } from '@polkadot/react-hooks';
 import { FormatBalance } from '@polkadot/react-query';

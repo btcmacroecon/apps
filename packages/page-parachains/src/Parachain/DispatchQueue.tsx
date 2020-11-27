@@ -1,11 +1,11 @@
 // Copyright 2017-2020 @polkadot/app-parachains authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { UpwardMessage } from '@polkadot/types/interfaces';
-
 import React from 'react';
 import styled from 'styled-components';
+
 import { Card, Output, Static } from '@polkadot/react-components';
+import { UpwardMessage } from '@polkadot/types/interfaces';
 
 import { useTranslation } from '../translate';
 

@@ -3,12 +3,13 @@
 
 import queryString from 'query-string';
 import React, { useEffect } from 'react';
+
 import { Input, Toggle } from '@polkadot/react-components';
 import { useApi } from '@polkadot/react-hooks';
 import { isString } from '@polkadot/util';
 
-import { useTranslation } from './translate';
 import Ledgend from './Ledgend';
+import { useTranslation } from './translate';
 
 interface Props {
   children?: React.ReactNode;

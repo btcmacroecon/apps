@@ -3,6 +3,7 @@
 
 import React from 'react';
 import styled from 'styled-components';
+
 import { classes } from '@polkadot/react-components/util';
 
 interface Props {

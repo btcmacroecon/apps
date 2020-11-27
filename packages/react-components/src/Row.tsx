@@ -3,12 +3,13 @@
 
 import React from 'react';
 import styled from 'styled-components';
+
 import { useToggle } from '@polkadot/react-hooks';
 
-import { classes } from './util';
 import EditButton from './EditButton';
 import Input from './Input';
 import Tags from './Tags';
+import { classes } from './util';
 
 export const styles = `
   text-align: left;

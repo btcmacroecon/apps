@@ -6,8 +6,8 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 
 import Icon from './Icon';
-import { classes } from './util';
 import Tooltip from './Tooltip';
+import { classes } from './util';
 
 interface Props {
   help: React.ReactNode;

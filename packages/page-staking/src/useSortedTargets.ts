@@ -1,16 +1,17 @@
 // Copyright 2017-2020 @polkadot/app-staking authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
+import BN from 'bn.js';
+import { useMemo, useState } from 'react';
+
 import type { DeriveSessionIndexes, DeriveStakingElected, DeriveStakingWaiting } from '@polkadot/api-derive/types';
 import type { Option } from '@polkadot/types';
 import type { Balance, ValidatorPrefsTo196 } from '@polkadot/types/interfaces';
-import type { SortedTargets, TargetSortBy, ValidatorInfo } from './types';
-
-import BN from 'bn.js';
-import { useMemo, useState } from 'react';
 import { registry } from '@polkadot/react-api';
 import { useAccounts, useApi, useCall, useDebounce } from '@polkadot/react-hooks';
 import { BN_ONE, BN_ZERO, formatBalance } from '@polkadot/util';
+
+import type { SortedTargets, TargetSortBy, ValidatorInfo } from './types';
 
 const PERBILL = new BN(1_000_000_000);
 const EMPTY_PARTIAL = {};

@@ -1,13 +1,13 @@
 // Copyright 2017-2020 @polkadot/apps authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { RuntimeVersion } from '@polkadot/types/interfaces';
-
 import React from 'react';
 import styled from 'styled-components';
+
 import { ChainImg, Icon } from '@polkadot/react-components';
 import { useApi, useCall, useIpfs, useToggle } from '@polkadot/react-hooks';
 import { BestNumber, Chain } from '@polkadot/react-query';
+import { RuntimeVersion } from '@polkadot/types/interfaces';
 
 import Endpoints from '../Endpoints';
 import { useTranslation } from '../translate';

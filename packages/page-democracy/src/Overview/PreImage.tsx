@@ -1,15 +1,15 @@
 // Copyright 2017-2020 @polkadot/app-democracy authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { SubmittableExtrinsic } from '@polkadot/api/promise/types';
-import { Hash } from '@polkadot/types/interfaces';
-
 import BN from 'bn.js';
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { Input, InputAddress, InputBalance, Extrinsic, Modal, TxButton } from '@polkadot/react-components';
+
+import type { SubmittableExtrinsic } from '@polkadot/api/promise/types';
+import { Extrinsic, Input, InputAddress, InputBalance, Modal, TxButton } from '@polkadot/react-components';
 import { useApi } from '@polkadot/react-hooks';
 import { Available } from '@polkadot/react-query';
+import { Hash } from '@polkadot/types/interfaces';
 import { BN_ZERO } from '@polkadot/util';
 import { blake2AsHex } from '@polkadot/util-crypto';
 
